@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.your_project">
+
+    <!-- Tambahkan izin di sini -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MainApplication"
+        android:label="your_project"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|direction|uiMode|screenSize|density|fontScale|textDirection|textAlignment|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|colorMode|color ```xml
+        <activity>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
